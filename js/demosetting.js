@@ -1,0 +1,6 @@
+	$(document).ready(function(){
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////						   
+
+		
+	$(".openpanel").click(function(){$(".panel").toggle("slow");$(this).toggleClass("active");return false});	
+				});
